@@ -1,0 +1,11 @@
+.timer {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.options .toggler{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

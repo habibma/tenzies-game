@@ -1,0 +1,64 @@
+.toggler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggler label {
+    flex-grow: 1;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+.container.dark .toggler--slider {
+    border-color: white;
+    background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.container.dark .toggler--slider--circle {
+    background-color: #000;
+}
+
+.toggler--light {
+    color: #2B283A;
+}
+
+.container.dark .toggler--light {
+    color: #918E9B;
+}
+
+.toggler--dark {
+    color: #D5D4D8;
+}
+
+.container.dark .toggler-dark {
+    color: #FFFFFF;
+}
+
+.container.dark .toggler--slider {
+    justify-content: flex-end;
+}
